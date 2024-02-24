@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: aquamarine;
+}
+
+#palindrome-checker {
+    text-align: center;
+    padding: 20px;
+    height: 10rem;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: mediumslateblue;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}

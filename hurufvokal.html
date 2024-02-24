@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Huruf Vokal</title>
+    <link rel="stylesheet" href="hurufvokal.css" />
+  </head>
+  <body>
+    <div class="boxClass">
+      <form onsubmit="checkVokal(); return false;">
+        <label for="kata-sebenarnya">Masukkan Kata:</label>
+        <input type="text" id="kata-sebenarnya" name="kata-sebenarnya"/></br></br>
+        <label for="huruf-pengganti">Isi Huruf Vokal:</label>
+        <input type="text" id="huruf-pengganti" name="huruf-pengganti" />
+        <button type="submit">Check!</button>
+      </form></br></br>
+      <div id="hasilPerubahan"></div>
+    </div>
+    <script src="hurufvokal.js"></script>
+  </body>
+</html>
